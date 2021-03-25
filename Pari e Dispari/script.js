@@ -26,3 +26,11 @@ var numeroRandomComputer = getRandomNumber(1, 5);
 console.log(numeroRandomComputer);
  
 
+// Sommiamo i due numeri (numeroUtente) e (numeroRandomComputer)
+
+function sommaNumeri(numeroUtente, numeroRandomComputer) {
+    return(numeroUtente + numeroRandomComputer);
+}
+
+var sommaNumeriUtenteEComputer = sommaNumeri(numeroUtente, numeroRandomComputer);
+console.log(sommaNumeriUtenteEComputer);
