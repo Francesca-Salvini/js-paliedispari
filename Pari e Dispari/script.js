@@ -64,6 +64,8 @@ function valutaChiHaVinto(pariODispariUtente, valutatoPariODispari) {
     } else {
         valutato = "il computer ha vinto";
     }
+
+    return valutato;
 }
 
 var dichiarazioneVincitore = valutaChiHaVinto(pariODispariUtente, valutatoPariODispari);
