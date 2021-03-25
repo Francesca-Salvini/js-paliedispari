@@ -34,3 +34,20 @@ function sommaNumeri(numeroUtente, numeroRandomComputer) {
 
 var sommaNumeriUtenteEComputer = sommaNumeri(numeroUtente, numeroRandomComputer);
 console.log(sommaNumeriUtenteEComputer);
+
+// Stabiamo se la somma dei due numeri è pari o dispari
+
+function valutaPariODispari(sommaNumeriUtenteEComputer){
+    var risultato; 
+
+    if(sommaNumeriUtenteEComputer % 2 == 0 ) {
+        risultato = "pari";
+    } else {
+        risultato = "dispari";
+    }
+
+    return risultato;
+}
+
+var valutatoPariODispari = valutaPariODispari(sommaNumeriUtenteEComputer);
+console.log("La somma dei numeri è " + valutatoPariODispari);
