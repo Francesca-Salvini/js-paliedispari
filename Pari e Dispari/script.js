@@ -9,6 +9,7 @@
 // L'utente sceglie pari o dispari 
 
 var pariODispariUtente = prompt("Scegli: pari o dispari?");
+console.log(pariODispariUtente);
 
 // L'utente sceglie un numero da 1 a 5 
 
@@ -51,3 +52,19 @@ function valutaPariODispari(sommaNumeriUtenteEComputer){
 
 var valutatoPariODispari = valutaPariODispari(sommaNumeriUtenteEComputer);
 console.log("La somma dei numeri è " + valutatoPariODispari);
+
+// Dichiariamo chi ha vinto
+
+function valutaChiHaVinto(pariODispariUtente, valutatoPariODispari) {
+    
+    var valutato;
+
+    if(pariODispariUtente == valutatoPariODispari) {
+        valutato = "l'utente ha vinto";
+    } else {
+        valutato = "il computer ha vinto";
+    }
+}
+
+var dichiarazioneVincitore = valutaChiHaVinto(pariODispariUtente, valutatoPariODispari);
+console.log(dichiarazioneVincitore);
